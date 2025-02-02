@@ -1,91 +1,36 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glow Up</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/Favicons/favicon.ico" type="image/x-icon">
-    <meta name="description" content="Glow Up: Guía completa para construir el cambio fisico que anhelas.">
-
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="login-style.css">
 </head>
+
 <body>
-    <header>
-        <h1><strong>Glow Up:</strong> Construye Tu Mejor Versión</h1>
-        <nav>
-            <a href="#post1">Cuidado de la piel</a>
-            <a href="#post2">Cuidado Capilar</a>
-            <a href="#post3">Cuerpo en Forma</a>  
-            <a href="#post4">Salud Mental</a>  
-            <a href="#post5">Guía de Vestimenta</a>  
-        </nav>
-    </header>
-    <main class="main-layout">
-        <div class="grid-container">
-        <!-- Cuidado de la piel  -->
-         <!-- Esta sección debo incluir la rutina, productos y tips -->
-     <section id="post1" class="card">
-         <img src="/images/rostro.jpeg" alt="rostro con piel sana" width="200">
-         <h2>Cuidado de la piel</h2>
-         <p>Arma tu rutina básica de SkinCare dependiendo de tu necesidad.</p>
-         <a href="/practica-css/Proyectos/Blog/cuidado_piel.html"></a>
-         </section>  
-
-      <!--Cuidado Capilar-->
-      <!-- En esta sección debo incluir rutina,productos,desmentir mitos -->
-    <section id="post2" class="card">
-        <img src="/images/Cabello-castaño-sano.jpeg" alt="cabello sano inspirador para mantener el cuidado" width="200">
-        <h2>Cuidado Capilar</h2>
-        <p>Que tu cabello refleje los cambios que haz hecho en ti.</p>
-        <a href="/practica-css/Proyectos/Blog/cuidado_capilar.html"></a>
-    </section>
-
-    <!--Cuerpo en forma -->
-    <!-- Incluir enlaces de YT, tips (hidratacion)-->
-    <section id="post3" class="card">
-        <img src="/images/pilates.jpeg" alt="mujereercitandose en casa" width="200">
-        <h2>Cuerpo en forma</h2>
-        <p>Construir un cuerpo sano toma tiempo pero es mejor si empiezas ahora!</p>
-        <a href="/practica-css/Proyectos/Blog/cuerpo_forma.html"></a>
-     </section>
-     
-     <!-- Salud mental -->
-      <!-- Incluir mantras,links de YT, respiración -->
-     <section id="post4" class="card">
-        <img src="/images/Salud-mental.jpeg" alt="meditacion" width="200">
-        <h2>Salud Mental</h2>
-        <p>Enfócate en tu salud mental y obtendrás un brillo único.</p>
-        <a href="/practica-css/Proyectos/Blog/salud_mental.html"></a>
-     </section>
-
-
-     <!-- Guia de vestimenta -->
-      <!-- Incluir estilos,zapatos,armario capsula -->
-     <section id="post5" class="card">
-        <img src="/images/look.jpeg" alt="ropa comoda y casual" width="200">
-        <h2>Guía de Vestimenta</h2>
-        <p>Encuentra tu estilo y adaptálo a ti.</p>
-        <a href="/practica-css/Proyectos/Blog/guia_vesti.html"></a>
-     </section>
-
-     <section id="post5" class="card">
-        <img src="/images/orden.jpeg" alt="organizacion de tu espacio" width="200">
-        <h2>Mejora tu entorno</h2>
-        <p>Estar en un espacio lindo y organizado influye en tu proceso de cambio.</p>
-        <a href="/practica-css/Proyectos/Blog/guia_vesti.html"></a>
-     </section>
+    <main>
+    
+        <h1>Sign In</h1>
+    <form action="#" method="post">
+        <div class="input-group">
+            <label for="email">
+                <i class="fa-solid fa-circle-user"></i>
+            </label>
+            <input type="email" name="correo" id="email" placeholder="example@mail.com" required>
+        </div>
+        <div class="input-group">
+            <label for="password">
+                <i class="fa-solid fa-lock"></i>
+            </label>
+            <input type="password" name="Contrasena" id="password" placeholder="Enter your password" required>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+    <div class="links">
+        <a href="#">Forget a password</a>
+        <a href="#">Create your account</a>
     </div>
-     <aside class="sidebar">
-        <h3>Otros Temas de interés</h3>
-        <ul>
-            <li> <a href="#">Libros de Crecimiento personal</a></li>
-            <li><a href="#">Cuentas de YT para el Crecimiento personal</a></li>
-        </ul>
-     </aside>
-    </main>
-    <footer>
-       <p>Este blog no sustituye el consejo de un profesional.</p>
-       <p>&copy; 2025 Glow Up - Todos los derechos reservados.</p>
-    </footer>
+</main>
 </body>
 </html>
